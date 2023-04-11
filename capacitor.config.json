@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "broken-links",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

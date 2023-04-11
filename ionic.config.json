@@ -1,0 +1,7 @@
+{
+  "name": "broken-links",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

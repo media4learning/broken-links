@@ -14,7 +14,11 @@
   </ion-header>
 
   <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+    <!-- <strong>Ready to create an app?</strong>
+    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p> -->
+
+    <ion-button (click)="crashApp()">Crash App (Android only)</ion-button>
+
+    <p>Simple method with a call to window.location - worked previous to v4.7.3, crashes on Android</p>
   </div>
 </ion-content>

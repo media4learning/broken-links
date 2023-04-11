@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicModule } from '@ionic/angular';
 
+declare var window: any;
+
 @Component({
   selector: 'app-home',
   templateUrl: 'home.page.html',
@@ -10,4 +12,8 @@ import { IonicModule } from '@ionic/angular';
 })
 export class HomePage {
   constructor() {}
+
+  crashApp() {
+    window.location = `mailto:max@ionic.io`;
+  }
 }
